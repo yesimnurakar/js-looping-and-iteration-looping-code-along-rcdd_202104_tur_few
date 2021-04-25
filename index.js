@@ -5,7 +5,7 @@ const event= "surprise";
 function writeCards(names, event) {
 let paragraph = `Thank you, ${names[i]} , for the wonderful ${event} gift!`;
 for (let i = 0; i < names.length; i++) {
- paragraph+= paragraph;
+ paragraph+=`Thank you, ${names[i]} , for the wonderful ${event} gift!` ;
  }
 return paragraph;
 }
